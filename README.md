@@ -17,8 +17,8 @@ L'exécution du script est très simple.
 
 ### CONNEXION au serveur
 1. sur l'ordinateur que vous utilisez
-(mac, linux) ouvrir une fenêtre de terminal de commande (CLI) 
-(win) lancer un logiciel de type PuTTY
+- (mac, linux) ouvrir une fenêtre de terminal de commande (CLI) 
+- (win) lancer un logiciel de type PuTTY
 
 2. dans cette fenêtre, taper et exécuter la commande de connexion à un serveur :
 
@@ -39,7 +39,7 @@ apt-get update && apt-get install wget -y && wget -qO- https://raw.githubusercon
 ```
 ### EXÉCUTION du script
 4. suivre les instructions à l'écran qui se termineront par un redémarrage du serveur
-auquel il faudra se connecter à nouveau.
+auquel il faudra se reconnecter.
 
 ---
 Ce script installe exclusivement des logiciels open-source
