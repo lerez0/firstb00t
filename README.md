@@ -8,7 +8,9 @@ sachez que ce script est prévu pour être lancé lors du premier démarrage d'u
 - crée un clé d'accès sécurisée sur votre ordinateur pour accéder à votre serveur-web
 - met en place un système de conteneurisation pour les futures web-apps de votre réz0
 
-L'étape suivante sera le lancement d'un script d'installation d'un bouquet de web-apps open-source et la mise en place d'un portail réz0 : (lien)
+> L'étape suivante sera le lancement d'un script d'installation d'un bouquet de web-apps open-source et la mise en place d'un portail réz0 : (lien)
+
+Il faut bien sûr disposer d'un serveur et de son adresse IP ou IPv4.
 
 > Si vous ne disposez-pas encore d'un serveur-web, allez jeter un oeil aux offres de contabo.com 🚀
 
@@ -33,7 +35,7 @@ ssh my-username@222.333.444.555
 ### LANCEMENT du script
 Une fois connecté au serveur
 
-3. copier-coller cette commande de lancement dans la fenêtre du terminal :
+3. copier-coller cette commande de lancement dans la fenêtre du terminal et taper Enter :
 ```bash
 apt-get update && apt-get install wget -y && wget -qO- https://raw.githubusercontent.com/lerez0/firstb00t/main/rez0-debian-premier-demarrage.sh | bash
 ```
