@@ -1,5 +1,7 @@
 # firstb00t
 ### script de premier démarrage et de sécurisation d'un serveur-web Linux Debian
+> Ce script installe exclusivement des logiciels open-source reconnus par la communauté Linux Debian à partir de leurs dépôts officiels et exige la création de mots de passe forts.
+
 Si c'est votre première expérience d'administration de serveur-web (local, virtuel ou dédié)
 sachez que ce script est prévu pour être lancé lors du premier démarrage d'un serveur-web debian
 (9, 10, 11 ou 12). Ce script :
@@ -8,9 +10,7 @@ sachez que ce script est prévu pour être lancé lors du premier démarrage d'u
 - crée un clé d'accès sécurisée sur votre ordinateur pour accéder à votre serveur-web
 - met en place un système de conteneurisation pour les futures web-apps de votre réz0
 
-> L'étape suivante sera le lancement d'un script d'installation d'un bouquet de web-apps open-source et la mise en place d'un portail réz0 : (lien)
-
-Il faut bien sûr disposer d'un serveur et de son adresse IP ou IPv4.
+Il faut bien sûr disposer d'un serveur local ou distant, et de son adresse IP ou IPv4.
 
 > Si vous ne disposez-pas encore d'un serveur-web, allez jeter un oeil aux offres de contabo.com 🚀
 
@@ -43,7 +43,5 @@ apt-get update && apt-get install wget -y && wget -qO- https://raw.githubusercon
 4. suivre les instructions à l'écran qui se termineront par un redémarrage du serveur
 auquel il faudra se reconnecter.
 
----
-Ce script installe exclusivement des logiciels open-source
-reconnus par la communauté Linux Debian à partir de leurs dépôts officiels
-et exige la création de mots de passe forts.
+
+> L'étape suivante sera le lancement d'un script d'installation d'un bouquet de web-apps open-source et la mise en place d'un portail réz0 : (lien)
