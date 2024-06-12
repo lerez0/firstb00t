@@ -37,7 +37,7 @@ Une fois connecté au serveur
 
 3. copier-coller cette commande de lancement dans la fenêtre du terminal et taper Enter :
 ```bash
-apt-get update && apt-get install wget -y && wget -qO- https://raw.githubusercontent.com/lerez0/firstb00t/main/rez0-debian-premier-demarrage.sh | bash
+apt-get update && apt-get install wget -y && wget -qO- https://raw.githubusercontent.com/lerez0/firstb00t/main/rez0-debian-demarrage.sh | bash
 ```
 ### EXÉCUTION du script
 4. suivre les instructions à l'écran qui se termineront par un redémarrage du serveur
