@@ -1,13 +1,40 @@
 # firstb00t
-un script pour installer son propre réz0 et sécuriser un nouveau serveur-web debian
+#### script de premier démarrage et de sécurisation d'un serveur-web Linux Debian
+#### en prévision de l'installation d'un portail réz0
+Si c'est votre première expérience d'administration de serveur-web (local, virtuel ou dédié) sachez que ce script est prévu pour être lancé lors du premier démarrage d'un serveur-web debian (9, 10, 11 ou 12).
+Ce script met à jour le système ; automatise l'installation de plusieurs outils de sécurité ; crée un clé d'accès sécurisée sur votre ordinateur pour accéder à votre serveur-web ; met en place un système de conteneurisation dans lequel les futures web-apps de votre réz0 fonctionneront de façon autonome.
 
-c'est peut-être votre premier expérience d'administration de serveur-web (virtuel ou dédié)
-ce script doit être lancé lors du premier démarrage d'un serveur-web debian 9, 10, 11 ou 12
-il automatise l'installation de plusieurs outils de sécurité
-active le parefeu ufw et crée un clé d'accès SSH dans votre ordinateur pour accéder à votre serveur-web
-il met en place un système de conteneurisation dans lequel vos futures web-apps
-fonctionneront de façon autonome
+L'étape suivante sera le lancement d'un script d'installation d'un bouquet de web-apps open-source : (lien)
+Si vous ne disposez-pas encore d'un serveur-web - allez jeter un oeil aux offres de contabo.com 🚀
 
-l'étape suivante sera le lancement d'un script d'installation d'un bouquet de web-apps open-source
+## GUIDE d'utilisation
+L'exécution du script est très simple.
 
-si vous ne disposez-pas d'un serveur-web - allez jeter un oeil aux offres de contabo.com
+### CONNEXION au serveur
+1. ouvrir une fenêtre de terminal de commande (CLI) sur l'ordinateur que vous utilisez
+2. dans cette fenêtre, taper et exécuter la commande de connexion à un serveur :
+
+> appel-du-protocol nom-de-l'utilisateur@adresse-du-serveur
+> ssh username@adresse_ip_du_serveur
+Exemple :
+```bash
+ssh my-username@222.333.444.555
+```
+## LANCEMENT du script
+Une fois connecté au serveur
+3. copier-coller cette commande de lancement dans la fenêtre du terminal :
+
+```bash
+apt-get update && apt-get install wget -y && wget -qO- https://raw.githubusercontent.com/lerez0/firstb00t/main/rez0-debian-premier-demarrage.sh | bash
+```
+
+## EXÉCUTION du script
+4. suivre les instructions à l'écran qui se termineront par un redémarrage du serveur
+auquel il faudra se connecter à nouveau.
+
+
+---
+******************************************************
+Ce script installe exclusivement des logiciels open-source
+reconnus par la communauté Linux Debian à partir de leurs dépôts officiels
+et exige la création de mots de passe forts.
