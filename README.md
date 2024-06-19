@@ -5,7 +5,7 @@
 Si c'est votre première expérience d'administration de serveur-web (local, virtuel ou dédié)
 sachez que ce script est prévu pour être lancé lors du premier démarrage d'un serveur-web debian
 (9, 10, 11 ou 12). Ce script :
-- met à jour le système
+- personnalise et met à jour le système
 - automatise l'installation de plusieurs outils de sécurité
 - crée un clé d'accès sécurisée sur votre ordinateur pour accéder à votre serveur-web
 - met en place un système de conteneurisation pour les futures web-apps de votre réz0
